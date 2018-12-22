@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0">
+  <title>Stencil Component Starter</title>
+  <script src="/build/agc-toaster.js"></script>
+</head>
+<body>
+
+  <agc-toaster style="--agc-animation-duration: 5s;"></agc-toaster>
+  <button onclick="showToast">Show Toast</button>
+
+  <script>
+    function showToast () {
+      document.querySelector('agc-toaster').showToast('Event added to calendar!');
+    }
+
+    document.querySelector('button').addEventListener('click', showToast);
+  </script>
+</body>
+</html>
