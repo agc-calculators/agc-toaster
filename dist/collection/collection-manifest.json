@@ -1,0 +1,29 @@
+{
+  "components": [
+    {
+      "tag": "agc-toaster",
+      "dependencies": [],
+      "componentClass": "AgcToaster",
+      "componentPath": "components/agc-toaster/agc-toaster.js",
+      "styles": {
+        "$": {
+          "stylePaths": [
+            "components/agc-toaster/agc-toaster.scss"
+          ]
+        }
+      },
+      "methods": [
+        {
+          "name": "showToast"
+        }
+      ]
+    }
+  ],
+  "collections": [],
+  "compiler": {
+    "name": "@stencil/core",
+    "version": "0.15.2",
+    "typescriptVersion": "2.9.2"
+  },
+  "bundles": []
+}
