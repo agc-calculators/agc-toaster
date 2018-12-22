@@ -1,5 +1,5 @@
 {
-  "name": "@ag-calculators/agc-toaster",
+  "name": "@agc-calculators/agc-toaster",
   "version": "1.0.1",
   "description": "Custom toaster component",
   "module": "dist/esm/index.js",
